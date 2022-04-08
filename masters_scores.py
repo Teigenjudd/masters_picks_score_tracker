@@ -57,10 +57,10 @@ def get_scores_and_players() -> pd.DataFrame:
         score = header_rows[index].find_all("td")
         name = str(name[0].contents[0]).lower()
         try:
-            score = int(score[3].contents[0])
+            score = int(score[4].contents[0])
         except ValueError:
             # set score to 0 if score = 'E' (even)
-            if (score[3].contents[0]) == 'E':
+            if (score[4].contents[0]) == 'E':
                 score = 0
             else:
                 score = 1000  # doesn't mean anything, just don't want to count players unless they are playing and have a score listed
