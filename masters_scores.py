@@ -19,7 +19,7 @@ def store_picks():
     tate = ['justin thomas', 'scottie scheffler', 'patrick cantlay', 'bryson dechambeau', 'tiger woods',
             'sam burns', 'max homa', 'tony finau', 'patrick reed', 'joaquin niemann', 'talor gooch',
             'matthew wolff', 'cameron champ']
-    andreas = ['justin thomas', 'jon rahm', 'patrick cantlay', 'daniel berger', 'louis oosthuizen', 'sam burns',
+    andrea = ['justin thomas', 'jon rahm', 'patrick cantlay', 'daniel berger', 'louis oosthuizen', 'sam burns',
                'bubba watson', 'tony finau', 'sungjae im', 'max homa', 'kevin kisner', 'seamus power',
                'brian harman']
     kirk = ['jon rahm', 'cameron smith', 'hideki matsuyama', 'collin morikawa', 'louis oosthuizen', 'sam burns',
@@ -37,7 +37,7 @@ def store_picks():
     teigen = ['scottie scheffler', 'cameron smith', 'collin morikawa', 'hideki matsuyama', 'tyrrell hatton',
               'matt fitzpatrick', 'max homa', 'patrick reed', 'corey conners', 'shane lowry', 'thomas pieters',
               'cameron champ', 'matthew wolff']
-    picks = {'Eric': eric, 'Tate': tate, 'Andreas': andreas, 'Kirk': kirk, 'Kelly': kelly, 'Hayden': hayden,
+    picks = {'Eric': eric, 'Tate': tate, 'Andrea': andrea, 'Kirk': kirk, 'Kelly': kelly, 'Hayden': hayden,
              'Matt': matt, 'Teigen': teigen}
     return picks
 
